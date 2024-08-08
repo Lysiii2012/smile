@@ -56,7 +56,7 @@ class App extends Component {
             <Title title="Результати голосування" type="second-title" />
             <Title title="Переможець" type="third-title" />
             <ResultClick counts={counts} smileys={smileys} /> 
-            <button onClick={this.deleteResult}>Видалити</button>
+            <button onClick={this.deleteResult}>Очистити результати</button>
           </> 
         )}
       </div>
